@@ -16,7 +16,7 @@ nest_asyncio.apply()
 
 # Load environment variables
 load_dotenv()
-litellm.api_key = "AIzaSyAjP_mx2gisIgXtftse-7UeG3TaM_-PZhI"  # Use your Gemini key
+litellm.api_key = "gemini api-key"  # Use your Gemini key
 litellm.api_base = "http://localhost:4000"     # LiteLLM proxy URL
 model_name = "gemini-1.5-flash"               # Alias from config.yaml
 
